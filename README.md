@@ -59,7 +59,7 @@ iii) python script. Remember that the name of the files needs to be simple and w
 
 ## DAFT Authors 
 
-* **Dharma A. Reyes Macaya** - [*MARUM*] (https://www.marum.de/en/index.html)*, University of Bremen, Germany* 
+* **Dharma A. Reyes Macaya** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* 
 
 * **Pablo Santamarina** - [*Innovex Tecnologías (Ltd.)*](www.innovex.cl)*, Chile*
 
