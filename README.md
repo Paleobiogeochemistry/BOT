@@ -2,9 +2,9 @@
 
 # Theoretical estimation of bottom water characteristics 
 
-To determine the theoretical bottom water characteristics on top of the sediment cores sites, we propose a simple finder script. From an hydrological data base organized in ODV software is possible to estimate it.
+Goal: To determine the theoretical bottom water characteristics, we propose a simple "finder" script that use a hidrological parameter (e.g. Temperature data) and sites locations as a imputs. 
 
-![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png)
+![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) (add figure caption and explanation about what is bottom water)
 
 ## Prerequisites
 
