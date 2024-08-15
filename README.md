@@ -14,16 +14,17 @@ Using regional hidrologial data set (e.g., hidrodataset-eqsouthpacific_version20
 - Python https://www.python.org/downloads/ 
 - Create a special folder for your data 
 
-## Getting started (Gneration of imput file): preparation of the data in [*Ocen Data View software*] (https://odv.awi.de/software/download/)*.
+## Getting started (Generation of Hidrological imput file): preparation of the data in [*Ocen Data View software*] (https://odv.awi.de/software/download/)*.
 
-1) Call your data to ODV (e.g., hidrodataset-eqsouthpacific_version2023). If you curated the data, we recomend you to use a ODV template (attached doc)
-2) Make a section in the study area that you are working on, we recomend to do a section close to you sediment stions. Plot your data en sections (x: Latitude or Longitude; Y: Depth; Z: Hidrological variable). Safe important information: 1) your map section (picture) and section properties as "Mean Width" of the section; 2) Hidrological Section properties (Gridded field, Automatic Scale lenghts, Quality limit); 3) If you use DIVA inteprolation, report the "signal-to-Noise Ratio" and of you configurate or not the "Prevent negative gridded values". 
-3)  you can apply Data Interpolated Variational Analysis (referred to as DIVA-interpolation), Weighted Average Interpolation gridding to interpolated your data (maximum gridding recomendable 40:X and 30:Y scale-length (permille) by [*Ocen Data View software*] (https://odv.awi.de/software/download/). 
-4) Interpolate the data in ODV, use the funtion hidrodataset-eqsouthpacific_version2023; Hidrological data set with special enfasis in high quality data of oxygen, nutrients, d13C-DIC, d18Osw at the Equatorial and South East Pacific.
-5) Go to the interphase menu and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character:TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
-6) Eliminate all spaces of the data and the "poor man's errors" column, you will  
+1) Call your data to ODV (e.g., hidrodataset-eqsouthpacific_version2023). If you curated the data, we recomend you to use a ODV template (attached doc, https://drive.google.com/file/d/1ZyONN1T7nXM2F6SS73UdqvW5-ooHM6aB/view?usp=drive_open) and save the data set in text file (prefence CVS)
+2) Make a section in the study area that you are working on, we recomend to do a section close to you sediment stions. Plot your data en sections (x: Latitude or Longitude; Y: Depth; Z: Hidrological variable). Safe important information: 1) your map section (picture) and section properties as "Mean Width" of the section; 2) Hidrological Section properties (Gridded field, Automatic Scale lenghts, Quality limit). 
+3) You can apply Data Interpolated Variational Analysis (referred to as DIVA-interpolation), Weighted Average Interpolation gridding to interpolated your data (maximum gridding recomendable 40:X and 30:Y scale-length (permille) by [*Ocen Data View software*] (https://odv.awi.de/software/download/). If you use DIVA inteprolation, report the "signal-to-Noise Ratio" and of you configurate or not the "Prevent negative gridded values". 
+4) In your just make section (X, Y, Z), go to the menu interphase and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character: TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
+5) Eliminate all spaces of the data and the "poor man's errors" column.
+6) Save the file as a txt (Column separation character: Tabulation).
 
-### First Step for OVD users 
+## Getting started (Generation of sediment sites imput file): 
+
 
 Download the latest version of ODV in https://odv.awi.de/software/download/ 
 
