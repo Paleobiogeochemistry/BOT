@@ -24,18 +24,13 @@ Here, we will provide detailed and simple method to estimated bottom waters at t
 4) In your just make section (X, Y, Z), go to the menu interphase and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character: TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
 5) Eliminate all spaces of the data and the "poor man's errors" column.
 6) Save the file as a txt (Column separation character: Tabulation).
+   
 ![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
+Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_version2023" data set and temperature, oxygen and photosphate sections. Visualizations were made using gridded data processed by Interpolated Variational Analysis (DIVA) (oxygen and phosphate) and Weighted Average Interpolation gridding (temperature) (Gridding of X:40, Y:30) on Ocean Data View 5.6.5 (Schlitzer, R., 2023). 
 
 ## Getting started (Generation of sediment sites imput file): 
 
-
-Download the latest version of ODV in https://odv.awi.de/software/download/ 
-
-- Organize your data using the Ocean Data View (ODV) data template (excel file example). Excel file example (Please not delete the first row items, you can add new columns after the parameter “depth [m]”) https://drive.google.com/file/d/1ZyONN1T7nXM2F6SS73UdqvW5-ooHM6aB/view?usp=drive_open 
-- The excel file with your data needs to be exported as a text file (preference format cvs)
-- Import from ODV the txt file 
-- Organize the data by meridional o zonal hydrological section 
-- Use the tool **clipboard copy (right bottom, option Extra) type export grilled filled values with tabulations** were used. The full grilled data was a copy in an excel file, edited the first line taking care to avoid text space and saved in txt separated with tabulations or in comma-separated csv. For futher information use https://odv.awi.de/fileadmin/user_upload/odv/misc/odv4Guide.pdf 
+1) 
 
 ### Second Step (data-sediments)...
 
