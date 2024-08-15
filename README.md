@@ -12,7 +12,7 @@ Here, we will provide detailed and simple method to estimated bottom waters at t
  
 # Prerequisites
 
-- [*Ocen Data View software*] (https://odv.awi.de/software/download/).  
+- *[Ocen Data View software] (https://odv.awi.de/software/download/)*.  
 - text file manager (eg. note ++, Excel).
 - Python https://www.python.org/downloads/ 
 - Create a special folder for your data 
