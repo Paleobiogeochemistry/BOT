@@ -1,4 +1,4 @@
-# Estimation of bottom water characteristics 
+# BOT: Estimation of bottom water characteristics 
 
 Goal: To determine the theoretical bottom water characteristics, we propose a simple "finder" to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, d13C-DIC, d18Osw, nitrate, nitrite data) from sediment samples. 
 
