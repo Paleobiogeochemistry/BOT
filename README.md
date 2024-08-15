@@ -1,5 +1,5 @@
-## BOT
-# Estimation of bottom water characteristics 
+# BOT
+## Estimation of bottom water characteristics 
 
 Goal: we propose a simple "finder" python code to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples as a method to estimate bottom water characteristics. 
 
