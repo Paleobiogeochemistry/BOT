@@ -1,23 +1,20 @@
-# (Under Construction)
+# Estimation of bottom water characteristics 
 
-# Theoretical estimation of bottom water characteristics 
+Goal: To determine the theoretical bottom water characteristics, we propose a simple "finder" to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, d13C-DIC, d18Osw, nitrate, nitrite data)from sediment samples. 
 
-Goal: To determine the theoretical bottom water characteristics, we propose a simple "finder" script that use a hidrological parameter (e.g. Temperature data) and sites locations as a imputs. 
-
-![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) (add figure caption and explanation about what is bottom water)
+![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) 
+As oceanographers and paleooceanographers we defined bottom water as water column data above around 10m from the surface seafloor. 
+One of the biggest challenges nowdays in paleoceanography for enviromental/hidrological proxy calibrations (development/evaluation) is the lack of insitu measurments of bottom water where surface or long-sediment cores are collected. 
+Using regional hidrologial data set (e.g., hidrodataset-eqsouthpacific_version2023; Hidrological data set with special enfasis in high quality data of oxygen, nutrients, d13C-DIC, d18Osw at the Equatorial and South East Pacific), you can apply Data Interpolated Variational Analysis (referred to as DIVA-interpolation), Weighted Average Interpolation gridding to interpolated your data (maximum gridding recomendable 40:X and 30:Y scale-length (permille) by [*Ocen Data View software*] (https://odv.awi.de/software/download/)*. 
 
 ## Prerequisites
 
-- Instal or use Ocean Data View software https://odv.awi.de/ or other program that allow you to obtained gridded interpolation plots (eg. surface, matlab, python, R). In this exercise we will use ODV. 
-- Instal or use text file manager (eg. note ++, Excel). 
-- Hydrological data set organize for be readed in ODV software 
+- [*Ocen Data View software*] (https://odv.awi.de/software/download/)*.  
+- text file manager (eg. note ++, Excel).
+- Python https://www.python.org/downloads/ 
 - Create a special folder for your data 
 
-
-## Getting started
-
-
-
+## Getting started 1) call your data to ODV; interpolate the data in ODV, use the funtion hidrodataset-eqsouthpacific_version2023; Hidrological data set with special enfasis in high quality data of oxygen, nutrients, d13C-DIC, d18Osw at the Equatorial and South East Pacific
 
 ### First Step for OVD users 
 
