@@ -1,6 +1,6 @@
 # BOT: Estimation of bottom water characteristics 
 
-Goal: To determine the theoretical bottom water characteristics, we propose a simple "finder" to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples. 
+Goal: we propose a simple "finder" python code to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples as a method to estimate bottom water characteristics. 
 
 ![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) 
 As oceanographers and paleooceanographers we defined bottom water as water column data above around 10m from the surface seafloor. 
