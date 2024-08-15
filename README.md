@@ -10,13 +10,13 @@ Motivation: Oceanographers and paleoceanographers typically define bottom water 
 
 Here, we will provide detailed and simple method to estimated bottom waters at the Equatorial and Southeast Pacific. As an example we will use the curated data set "hidrodataset-eqsouthpacific_version2023" (a dataset emphasizing to host high-quality oxygen, nutrient, δ<sup>13</sup>C-DIC, δ<sup>18</sup>O-sea water, δD-sea water data in the Equatorial and Southeast Pacific), can be utilized. These datasets can be visualized and interpolated using software like Ocean Data View (https://odv.awi.de/software/download/).
  
-# Prerequisites
+### Prerequisites
 
 - Ocen Data View software (https://odv.awi.de/software/download/)   
 - Text file manager (eg. note ++, Excel).
 - Python software https://www.python.org/downloads/ 
 
-## Getting started (Generation of Hydrological imput file): preparation of the data in [*Ocen Data View software*] (https://odv.awi.de/software/download/)*.
+### Getting started (Generation of Hydrological imput file): preparation of the data in [*Ocen Data View software*] (https://odv.awi.de/software/download/)*.
 
 1) Call your data to ODV (e.g., hidrodataset-eqsouthpacific_version2023). If you curated the data, we recomend you to use a ODV template (attached doc, https://drive.google.com/file/d/1ZyONN1T7nXM2F6SS73UdqvW5-ooHM6aB/view?usp=drive_open) and save the data set in text file (prefence CVS)
 2) Make a section in the study area that you are working on, we recomend to do a section close to you sediment stions. Plot your data in sections (x: Latitude or Longitude; Y: Depth; Z: Hidrological variable). Safe important information: 1) your map section (picture) and section properties as "Mean Width" of the section; 2) Hidrological Section properties (Gridded field, Automatic Scale lenghts, Quality limit). 
