@@ -28,39 +28,25 @@ Here, we will provide detailed and simple method to estimated bottom waters at t
 ![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
 Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_version2023" data set and temperature, oxygen and photosphate sections. Visualizations were made using gridded data processed by Interpolated Variational Analysis (DIVA) (oxygen and phosphate) and Weighted Average Interpolation gridding (temperature) (Gridding of X:40, Y:30) on Ocean Data View 5.6.5 (Schlitzer, R., 2023). 
 
-## Getting started (Generation of sediment sites imput file): 
+## Getting started (Generation of sediment sites imput file)
 
-1) 
+1) Create a text file (Column separation character: Tabulation) with your sediment sites information (Column 1: station; Column 2: latitude/longitude; Column 3: waterdepth). 
 
-### Second Step (data-sediments)...
+station	latitude	waterdepth
+BIAC072014L3	-27.11	90
+Crio1104.E1	-12.04	48
+Crio1104.E2	-14.08	180
 
-#### Determination of relative bottom water characteristics at the surface sediment sites
+## Run the BOTcode (Generation of output file)
 
-With the goal of finding the relative bottom water hydrological characteristics from the grilled hydrological interpolations (explained in point 1) in top of surface sediments collected in the South-East Pacific, a python script was developed. 
+1) Install Python (recommendable last edition) https://www.python.org/
+2) Check BOTcode (attached) 
+3) Create in your PC a single folder where you add all imput files: sediment stations, hydrological parameter 1 (e.g., oxygen), hydrologial parameter 2 (e.g., temperatature), Hydrological parameter 3,4,5,6,n; BOTcode python.
+4) Run the code
 
-**Step 1.** Install Python (recommendable last edition) https://www.python.org/ 
+   For Mac Terminal 
 
-**Step 2.** Create in your PC a single folder for each hydrological parameter (eg. one specific folder for oxygen, temperature, salinity). In that folder, add 
-
-i) the hydrological parameter grilled text file obtained previously in Ocean Data View (example file format, https://drive.google.com/open?id=1DU3xOgopRsxX4oWs65YJ8nyRAoMPxk-9) 
-
-ii) the station’s text file (example file format https://drive.google.com/open?id=1usasObWq-_4XA57hb3dHwZay6TwVpQc2) and the 
-
-iii) python script. Remember that the name of the files needs to be simple and without spaces.  
-
-
-### Third Step (Script-Python)...
-
-
-
-## Example ... (Paper undercostruction)
-
-
-
-
-
-
-## DAFT Authors 
+## BOT Authors 
 
 * **Dharma A. Reyes Macaya** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* 
 
@@ -69,15 +55,7 @@ iii) python script. Remember that the name of the files needs to be simple and w
 * **Rodrigo Troncoso** - *Arturo Prat University, Iquique, Chile*
 
 
+### BOT Collaborators
 
-### Collaborators
-
-> **Dharma Reyes** - *MARUM Institute, University of Bremen, Germany* - [dreyesmacaya@marum.de]
-
-> **Pablo Santamarina** - *Innovex (Ltd.), Chile*
-
-> **Rodrigo Troncoso** - *Arturo Prat University, Iquique, Chile*
-
-
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+> **Sebastian Garrido** - ** - []
+> **Sofia Barragan-Montilla** - *MARUM Institute, University of Bremen, Germany* - []
