@@ -1,19 +1,18 @@
-# BOT: Estimation of bottom water characteristics 
+### BOT
+## Estimation of bottom water characteristics 
 
 Goal: we propose a simple "finder" python code to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples as a method to estimate bottom water characteristics. 
 
 ![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) 
-Figure 1. Schematic representation of sediment core locations relative to overlying water mass distributions based on δ<sup>13</sup>C-DIC. Visualizations were generated using gridded data processed by Interpolated Variational Analysis (DIVA) (X:30, Y:20 grid) in Ocean Data View 5.6.5 (Schlitzer, R., 2023).
+Figure 1. Schematic representation of sediment core locations relative to overlying water mass distributions based on δ<sup>13</sup>C-DIC (Reyes-Macaya et al., 2022). Visualizations were generated using gridded data processed by Interpolated Variational Analysis (DIVA) (X:30, Y:20 grid) in Ocean Data View 5.6.5 (Schlitzer, R., 2023).
 
-
-
-
+Motivation: 
 Oceanographers and paleoceanographers typically define bottom water as the water column within approximately 10 meters of the seabed. A significant challenge in paleoceanography is the scarcity of in situ measurements of bottom water properties at locations where surface or long sediment cores are obtained. 
 As oceanographers and paleooceanographers we defined bottom water as water column data above around 10m from the surface seafloor. 
 One of the biggest challenges nowdays in paleoceanography for enviromental/hidrological proxy calibrations (development/evaluation) is the lack of insitu measurments of bottom water where surface or long-sediment cores are collected. 
 Using regional hidrologial data set (e.g., hidrodataset-eqsouthpacific_version2023; Hidrological data set with special enfasis in high quality data of oxygen, nutrients, d13C-DIC, d18Osw at the Equatorial and South East Pacific) you can visualize and interpolate the data in e.g., [*Ocen Data View software*] (https://odv.awi.de/software/download/). This will be your base file to get started! 
 
-## Prerequisites
+# Prerequisites
 
 - [*Ocen Data View software*] (https://odv.awi.de/software/download/).  
 - text file manager (eg. note ++, Excel).
