@@ -24,13 +24,7 @@ Here, we will provide detailed and simple method to estimated bottom waters at t
 4) In your just make section (X, Y, Z), go to the menu interphase and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character: TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
 5) Eliminate all spaces of the data and the "poor man's errors" column.
 6) Save the file as a txt (Column separation character: Tabulation).
-
-![](![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
-)
-
-
-
-
+![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
 
 ## Getting started (Generation of sediment sites imput file): 
 
