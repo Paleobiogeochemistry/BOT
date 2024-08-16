@@ -51,19 +51,22 @@ Crio1104.E2	-14.08	180
 3) Create in your PC a single folder where you add all imput files: sediment stations, hydrological parameter 1 (e.g., oxygen), hydrologial parameter 2 (e.g., temperatature), Hydrological parameter 3,4,5,6,n; BOTcode python.
 4) Run the code
 
-   For Mac Terminal 
+>> For Mac users
+1) Open terminal in folfer and add $ awk '{ printf "%s ", $1; system("python3.6 BOT.py " $2 " " $3 " hidroparametername.txt")}' sedimentstationsname.txt > sedimentstationsname.data.hydroparametersname.txt
+                          example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " ioncarbonate.txt")}' estaciones2.txt > stations2.data.ioncarbonate.txt
+
+
+
 
 ## BOT Authors 
 
-* **Dharma A. Reyes Macaya** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Sctoland, UK* 
-
+* **Dharma A. Reyes Macaya** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Scotland, UK* - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* 
 * **Pablo Santamarina** - [*Innovex Tecnologías (Ltd.)*](www.innovex.cl)*, Chile*
-
 * **Rodrigo Troncoso** - *Arturo Prat University, Iquique, Chile*
 
 
 ### BOT Collaborators
 
 * **
-* **Sebastian Garrido** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Sctoland, UK* 
-* **Sofia Barragan-Montilla** - *MARUM Institute, University of Bremen, Germany* - []
+* **Sebastian Garrido** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Scotland, UK*
+* **Sofia Barragan-Montilla** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany*
