@@ -8,7 +8,9 @@ Figure 1. Schematic representation of sediment core locations relative to overly
 
 Motivation: Oceanographers and paleoceanographers typically define bottom water as the water column within approximately 10 meters of the seabed/seafloor. A significant challenge in paleoceanography is the scarcity of in-situ measurements of bottom water properties at locations where surface or long sediment cores are obtained. This hinders the development of methods that we can use to determinate bottom waters characterists estimated from regional/global hidrological data bases, then we can use that data to be used for proxy calibrations and define modern oceanographic settings. 
 
-Here, we will provide detailed and simple method to estimated bottom waters at the Equatorial and Southeast Pacific. As an example we will use the curated data set "hidrodataset-eqsouthpacific_version2023" (a dataset emphasizing to host high-quality oxygen, nutrient, δ<sup>13</sup>C-DIC, δ<sup>18</sup>O-sea water, δD-sea water data in the Equatorial and Southeast Pacific), can be utilized. These datasets can be visualized and interpolated using software like Ocean Data View (https://odv.awi.de/software/download/).
+Here, we will provide detailed and simple method to estimated bottom waters at the Equatorial and Southeast Pacific. 
+As an example we will use the curated data set "hidrodataset-eqsouthpacific_version2023" (a dataset emphasizing to host high-quality oxygen, nutrient, δ<sup>13</sup>C-DIC, δ<sup>18</sup>O-sea water, δD-sea water data in the Equatorial and Southeast Pacific).
+These dataset can be visualized and interpolated using software like Ocean Data View (https://odv.awi.de/software/download/).
  
 ### Prerequisites
 
