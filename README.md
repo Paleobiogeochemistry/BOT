@@ -29,20 +29,20 @@ Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_ver
 6) Eliminate all spaces of the data and the "poor man's errors" column.
 7) Save the file as a txt (Column separation character: Tabulation).
 
- _SectionLatitude	Depth[m]	Temperatureinsitu
- -43.8925	3300	1.80061
- -43.7863	3300	1.80051
- -43.6811	3300	1.80042
- -43.5771	3300	1.80031
+> _SectionLatitude	Depth[m]	Temperatureinsitu
+> -43.8925	3300	1.80061
+> -43.7863	3300	1.80051
+> -43.6811	3300	1.80042
+> -43.5771	3300	1.80031
    
 ## Getting started (Generation of sediment sites imput file)
 
 1) Create a text file (Column separation character: Tabulation) with your sediment sites information (Column 1: station; Column 2: latitude/longitude; Column 3: waterdepth). 
 
-station	latitude	waterdepth
-BIAC072014L3	-27.11	90
-Crio1104.E1	-12.04	48
-Crio1104.E2	-14.08	180
+> station	latitude	waterdepth
+> BIAC072014L3	-27.11	90
+> Crio1104.E1	-12.04	48
+> Crio1104.E2	-14.08	180
 
 ## Run the BOTcode (Generation of output file)
 
@@ -58,10 +58,10 @@ example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " 
 
 5) Results (imput station, imput hidro data set, imput latitude, imput water depth; closet find latitude output, closet find water depth output, bottom water hidrological estimation output)
 
-station 
-BIAC072014L3 temp.txt -27.11 90.0 -27.1432 89.78008 13.13343
-Crio1104.E1 temp.txt -12.04 48.0 -12.0455 47.36325 15.03729
-Crio1104.E2 temp.txt -14.08 180.0 -14.0525 180.20802 13.38986
+> station 
+> BIAC072014L3 temp.txt -27.11 90.0 -27.1432 89.78008 13.13343
+> Crio1104.E1 temp.txt -12.04 48.0 -12.0455 47.36325 15.03729
+> Crio1104.E2 temp.txt -14.08 180.0 -14.0525 180.20802 13.38986
 
 
 ## BOT Authors 
