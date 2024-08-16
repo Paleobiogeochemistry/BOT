@@ -20,14 +20,21 @@ Here, we will provide detailed and simple method to estimated bottom waters at t
 
 1) Call your data to ODV (e.g., hidrodataset-eqsouthpacific_version2023). If you curated the data, we recomend you to use a ODV template (attached doc, https://drive.google.com/file/d/1ZyONN1T7nXM2F6SS73UdqvW5-ooHM6aB/view?usp=drive_open) and save the data set in text file (prefence CVS)
 2) Make a section in the study area that you are working on, we recomend to do a section close to you sediment stions. Plot your data in sections (x: Latitude or Longitude; Y: Depth; Z: Hidrological variable). Safe important information: 1) your map section (picture) and section properties as "Mean Width" of the section; 2) Hidrological Section properties (Gridded field, Automatic Scale lenghts, Quality limit). 
-3) You can apply Data Interpolated Variational Analysis (referred to as DIVA-interpolation), Weighted Average Interpolation gridding to interpolated your data (maximum gridding recomendable 40:X and 30:Y scale-length (permille) by [*Ocen Data View software*] (https://odv.awi.de/software/download/). If you use DIVA inteprolation, report the "signal-to-Noise Ratio" and of you configurate or not the "Prevent negative gridded values". 
-4) In your just make section (X, Y, Z), go to the menu interphase and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character: TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
-5) Eliminate all spaces of the data and the "poor man's errors" column.
-6) Save the file as a txt (Column separation character: Tabulation).
-   
-![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
-Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_version2023" data set and temperature, oxygen and photosphate sections. Visualizations were made using gridded data processed by Interpolated Variational Analysis (DIVA) (oxygen and phosphate) and Weighted Average Interpolation gridding (temperature) (Gridding of X:40, Y:30) on Ocean Data View 5.6.5 (Schlitzer, R., 2023). 
+3) You can apply Data Interpolated Variational Analysis (referred to as DIVA-interpolation), Weighted Average Interpolation gridding to interpolated your data (maximum gridding recomendable 40:X and 30:Y scale-length (permille) by [*Ocen Data View software*] (https://odv.awi.de/software/download/). If you use DIVA inteprolation, report the "signal-to-Noise Ratio" and of you configurate or not the "Prevent negative gridded values".
 
+![hidroeepsep_odv_example_githubBOT](https://github.com/user-attachments/assets/a18f29e1-7dfc-4ee7-97ab-e4dacc875136)
+Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_version2023" data set and temperature, oxygen and photosphate sections. Visualizations were made using gridded data processed by Interpolated Variational Analysis (DIVA) (oxygen and phosphate) and Weighted Average Interpolation gridding (temperature) (Gridding of X:40, Y:30) on Ocean Data View 5.6.5 (Schlitzer, R., 2023).
+   
+5) In your just make section (X, Y, Z), go to the menu interphase and select EXTRAS > CLIPBOARD COPY > Export gridded field values and "poor man's errors" (Column separation character: TAB; Export variable labels and Export data with missing Z value). This optinion will allow you to export the interpolated data into a text file or Excel.
+6) Eliminate all spaces of the data and the "poor man's errors" column.
+7) Save the file as a txt (Column separation character: Tabulation).
+
+_SectionLatitude	Depth[m]	Temperatureinsitu
+-43.8925	3300	1.80061
+-43.7863	3300	1.80051
+-43.6811	3300	1.80042
+-43.5771	3300	1.80031
+   
 ## Getting started (Generation of sediment sites imput file)
 
 1) Create a text file (Column separation character: Tabulation) with your sediment sites information (Column 1: station; Column 2: latitude/longitude; Column 3: waterdepth). 
@@ -48,7 +55,7 @@ Crio1104.E2	-14.08	180
 
 ## BOT Authors 
 
-* **Dharma A. Reyes Macaya** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* 
+* **Dharma A. Reyes Macaya** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany* - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Sctoland, UK* 
 
 * **Pablo Santamarina** - [*Innovex Tecnologías (Ltd.)*](www.innovex.cl)*, Chile*
 
@@ -57,5 +64,6 @@ Crio1104.E2	-14.08	180
 
 ### BOT Collaborators
 
-> **Sebastian Garrido** - ** - []
-> **Sofia Barragan-Montilla** - *MARUM Institute, University of Bremen, Germany* - []
+* **
+* **Sebastian Garrido** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Sctoland, UK* 
+* **Sofia Barragan-Montilla** - *MARUM Institute, University of Bremen, Germany* - []
