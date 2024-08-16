@@ -55,7 +55,12 @@ Crio1104.E2	-14.08	180
 1) Open terminal in folfer and add $ awk '{ printf "%s ", $1; system("python3.6 BOT.py " $2 " " $3 " hidroparametername.txt")}' sedimentstationsname.txt > sedimentstationsname.data.hydroparametersname.txt
                           example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " ioncarbonate.txt")}' estaciones2.txt > stations2.data.ioncarbonate.txt
 
+5) Results (imput station, imput hidro data set, imput latitude, imput water depth; closet find latitude output, closet find water depth output, bottom water hidrological estimation output)
 
+station 
+BIAC072014L3 temp.txt -27.11 90.0 -27.1432 89.78008 13.13343
+Crio1104.E1 temp.txt -12.04 48.0 -12.0455 47.36325 15.03729
+Crio1104.E2 temp.txt -14.08 180.0 -14.0525 180.20802 13.38986
 
 
 ## BOT Authors 
@@ -67,6 +72,6 @@ Crio1104.E2	-14.08	180
 
 ### BOT Collaborators
 
-* **
+* **Laura Farias** * - [*Centro de Ciencia del Clima y Resiliencia*](https://www.cr2.cl/)*, Chile*, * - [*Instituto Milenio en Socio-Ecología Costera (SECOS) - Millennium Science Initiative Program*](https://socioecologiacostera.cl/en/), Chile*, * - [*Departamento de Oceanografía, Universidad de Concepción*](http://oceanografia.udec.cl/)*, Chile*
 * **Sebastian Garrido** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Scotland, UK*
 * **Sofia Barragan-Montilla** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany*
