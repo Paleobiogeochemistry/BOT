@@ -1,7 +1,7 @@
 # BOT
 ## Estimation of bottom water characteristics 
 
-Goal: we propose a simple "finder" python code to calculate the closest distance in latitude/longitude and water depth of hidrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples as a method to estimate bottom water characteristics. 
+Goal: we propose a simple "finder" python code to calculate the closest distance in latitude/longitude and water depth of hydrological parameters (e.g. Temperature, δ<sup>13</sup>C-DIC, δ<sup>18</sup>Osw, nitrate, nitrite data) from sediment samples as a method to estimate bottom water characteristics. 
 
 ![GC_MUC_sediment_model](https://user-images.githubusercontent.com/57748370/113622334-231a8e80-965d-11eb-977d-943e565c5e71.png) 
 Figure 1. Schematic representation of sediment core locations relative to overlying water mass distributions based on δ<sup>13</sup>C-DIC (Reyes-Macaya et al., 2022). Visualizations were generated using gridded data processed by Interpolated Variational Analysis (DIVA) (X:30, Y:20 grid) in Ocean Data View 5.6.5 (Schlitzer, R., 2023).
