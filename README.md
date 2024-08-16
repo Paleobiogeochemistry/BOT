@@ -29,11 +29,11 @@ Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_ver
 6) Eliminate all spaces of the data and the "poor man's errors" column.
 7) Save the file as a txt (Column separation character: Tabulation).
 
-_SectionLatitude	Depth[m]	Temperatureinsitu
--43.8925	3300	1.80061
--43.7863	3300	1.80051
--43.6811	3300	1.80042
--43.5771	3300	1.80031
+ _SectionLatitude	Depth[m]	Temperatureinsitu
+ -43.8925	3300	1.80061
+ -43.7863	3300	1.80051
+ -43.6811	3300	1.80042
+ -43.5771	3300	1.80031
    
 ## Getting started (Generation of sediment sites imput file)
 
