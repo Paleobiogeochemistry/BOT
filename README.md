@@ -52,8 +52,9 @@ Crio1104.E2	-14.08	180
 4) Run the code
 
 >> For Mac users
-1) Open terminal in folfer and add $ awk '{ printf "%s ", $1; system("python3.6 BOT.py " $2 " " $3 " hidroparametername.txt")}' sedimentstationsname.txt > sedimentstationsname.data.hydroparametersname.txt
-                          example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " ioncarbonate.txt")}' estaciones2.txt > stations2.data.ioncarbonate.txt
+1) Open terminal in folfer and add
+$ awk '{ printf "%s ", $1; system("python3.6 BOT.py " $2 " " $3 " hidroparametername.txt")}' sedimentstationsname.txt > sedimentstationsname.data.hydroparametersname.txt
+example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " ioncarbonate.txt")}' estaciones2.txt > stations2.data.ioncarbonate.txt
 
 5) Results (imput station, imput hidro data set, imput latitude, imput water depth; closet find latitude output, closet find water depth output, bottom water hidrological estimation output)
 
