@@ -78,3 +78,4 @@ example: $ awk '{ printf "%s ", $1; system("python3.6 Cod_022d.py " $2 " " $3 " 
 * **Laura Farias** * - [*Centro de Ciencia del Clima y Resiliencia*](https://www.cr2.cl/)*, Chile*, * - [*Instituto Milenio en Socio-Ecología Costera (SECOS) - Millennium Science Initiative Program*](https://socioecologiacostera.cl/en/), Chile*, * - [*Departamento de Oceanografía, Universidad de Concepción*](http://oceanografia.udec.cl/)*, Chile*
 * **Sebastian Garrido** - [*Paleobiogeochemistry working group*](https://pastclimates.site.hw.ac.uk/)*, Lyell Centre, Heriot-Watt University, Scotland, UK*
 * **Sofia Barragan-Montilla** - [*MARUM*](https://www.marum.de/en/index.html)*, University of Bremen, Germany*
+* **Krystel Susaya-Vicente** * - [*Departamento de Zoologia, Universidad de Concepción*](https://www.naturalesudec.cl/departamentos/zoologia/)*, Chile*
