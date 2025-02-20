@@ -55,7 +55,9 @@ Figure 2. Map of hidrological stations from the "hidrodataset-eqsouthpacific_ver
 
 >> For Mac users
 1) Open terminal in folfer and add 
+
 $ awk '{ printf "%s ", $1; system("python3.6 bot.py " $2 " " $3 " hidroparametername.txt")}' sedimentstationsname.txt > sedimentstationsname.data.hydroparametersname.txt
+
 example: $ awk '{ printf "%s ", $1; system("python3.6 bot.py " $2 " " $3 " ioncarbonate.txt")}' estaciones2.txt > stations2.data.ioncarbonate.txt
 
 5) Results (imput station, imput hidro data set, imput latitude, imput water depth; closet find latitude output, closet find water depth output, bottom water hidrological estimation output)
